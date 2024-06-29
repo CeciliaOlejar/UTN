@@ -55,3 +55,20 @@ if (edad2 >= 18) {
 let resultado3 = edad2 >= 18 ? "Es mayor de edad, puede votar" : "Es menor de edad, no puede votar
 console.log(resultado3);
 
+
+
+// funtion NAN
+let elnumero2 = "10";
+console.log(typeof numero);
+let edad3 = Number(elnumero);
+console.log(typeof edad2);
+
+if (isNaN(edad3)) {
+    console.log("esta variable no contiene solo numero");
+} else {
+    if (edad2 >= 18) {
+        console.log("Es mayor de edad, puede votar");
+    } else {
+        console.log("Es menor de edad, no puede votar");
+    }
+}
