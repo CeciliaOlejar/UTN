@@ -23,3 +23,11 @@ if (dentroRango >= valMin && dentroRango <= valMax) {
 } else {
     console.log("El numero esta fuera del rango");
 }
+
+// ejercicio si el padre puede asistir al juego
+let vacciones = false, diaDescanso = false;
+if (vacciones || diaDescanso) {
+    console.log("El padre puede asistir al juego");
+} else {
+    console.log("El padre no puede asistir al juego");
+}
