@@ -31,3 +31,20 @@ for i in range(n):
 
 # Mostramos la suma total
 print(f"La suma total de los {n} números es: {suma_total}")
+
+#leer 10 numeros y imprimir cuales son positivos, negativos y cuantos neutros
+
+positivos = 0
+negativos = 0
+neutros = 0
+for i in range(10):
+    n = int(input("ingrese un numero"))
+    if n == 0:
+        neutros += 1
+    elif n>0:
+        positivos += 1
+    else:
+        negativos = 1
+print(f"la cantidad de nros positivos es: {positivos} ")
+print(f"la cantidad de nros negativos es: {negativos}")
+print(f"la cantidad de nros neutros es: {neutros}")
