@@ -116,3 +116,21 @@ print(f"La suma de los números pares es: {sumaPares}")
 print(f"Cantidad de números pares: {cantPares}")
 print(f"Promedio de los números impares: {promedioImpar}")
 
+
+#dadas las horas trabajas de 5 personas y la tariga de pago,
+# calcular el salario y la sumatoria de todos los salarios
+
+horas=0
+tarifa=0
+sumaSalario=0
+salario = 0
+
+for i in range(5):
+    print(f"salario empleado nro: {i +1 }")
+    horas = int(input(f"ingrese las horas trabajadas"))
+    tarifa = int(input(f"ingrese tarifa por hora"))
+    salario = horas * tarifa
+    print(f"el salario del empleado nro: {i+1} es {salario}")
+    sumaSalario += salario
+
+print(f"la suma de todos los salarios es: {sumaSalario}")
