@@ -102,3 +102,28 @@ if (hora >= 6 && hora <= 12) {
     mensaje = "no existe";
 }
 console.log(mensaje);
+
+
+// estructura switch
+
+// mes del anio
+let mess = 3;
+let estacionn;
+
+switch (mes) {
+    case 1: case 2: case 12:
+        estacionn = "verano";
+        break;
+    case 3: case 4: case 5:
+        estacionn = "otonio";
+        break;
+    case 6: case 7: case 8:
+        estacionn = "invierno";
+        break;
+    case 9: case 10: case 11:
+        estacionn = "primavera";
+        break;
+    default:
+        estacionn = "no existe";
+}
+console.log(estacionn);
