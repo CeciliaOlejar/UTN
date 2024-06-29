@@ -27,3 +27,23 @@ df -h #Muestra todos los directorios en Ubuntu
 cd /mnt/d #Cambia de directorio usando WSL Ubuntu en window
 ```
 
+
+
+
+## AHORA COMENZAMOS CON LA CREACIÓN DE CARPETAS
+
+```sh
+cd ..
+cd ..
+cd /mnt/c
+cd ~ #Vamos a la raíz
+mkdir Tecnicatura #Recordar que en window las mayúsculas no tienen relevancia, pero si en Linux
+cd tecnicatura
+mkdir Python
+mkdir Java
+mkdir JavaScript
+```
+<sub>
+Revisar y ejecutar cada comando, hacerlo como practica</sub>
+<sub>
+Profesor Ariel Betancud</sub>
