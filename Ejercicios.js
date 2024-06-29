@@ -127,3 +127,21 @@ switch (mes) {
         estacionn = "no existe";
 }
 console.log(estacionn);
+
+// hora dia
+let horaa = 10;
+let mensajea;
+switch (hora) {
+    case 6: case 7: case 8: case 9: case 10:
+        mensajea = "buenos dias";
+        break;
+    case 11: case 12: case 13: case 14: case 15:
+        mensajea = "buenas tardes";
+        break;
+    case 16: case 17: case 18: case 19: case 20:
+        mensajea = "buenas noches";
+        break;
+    default:
+        mensajea = "no existe";
+}
+console.log(mensajea);
