@@ -65,3 +65,22 @@ for i in range(10):
 promedio = suma / 10
 print(f"el promedio es: {promedio} ")
 print(f"la calificacion mas baja es:  {calificacionBaja} ")
+
+
+#calcular el factorial de un numero mayor o igual a 0
+
+def factorial (n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+while True:
+    numero = int(input("ingrese un numero mayor o igual a 0"))
+    if n >= 0:
+        break
+    else:
+        print("ingrese un numero mayor o igual a 0")
+
+resultado = factorial(numero)
+print(f"el resultado es:  {resultado}")
