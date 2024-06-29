@@ -88,3 +88,17 @@ if (mes == 1 || mes == 2 || mes == 12) {
 }
 console.log(estacion);
 
+
+// hora del dia 
+let hora = 10;
+let mensaje;
+if (hora >= 6 && hora <= 12) {
+    mensaje = "buenos dias";
+} else if (hora >= 13 && hora <= 19) {
+    mensaje = "buenas tardes";
+} else if (hora >= 20 && hora <= 23) {
+    mensaje = "buenas noches";
+} else {
+    mensaje = "no existe";
+}
+console.log(mensaje);
