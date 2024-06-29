@@ -145,3 +145,12 @@ switch (hora) {
         mensajea = "no existe";
 }
 console.log(mensajea);
+
+// ejercicio codigo mejorado
+let days = ['lunes', 'Martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
+function getDay(n) {
+    if (n < 0 || n > 6) {
+        return 'error';
+    } return days[n];
+}
+console.log(getDay(5));
