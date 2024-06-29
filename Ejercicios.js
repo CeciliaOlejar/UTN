@@ -72,3 +72,19 @@ if (isNaN(edad3)) {
         console.log("Es menor de edad, no puede votar");
     }
 }
+// Calcular estacion del año
+let mes = 3;
+let estacion;
+if (mes == 1 || mes == 2 || mes == 12) {
+    estacion = "verano";
+} else if (mes == 3 || mes == 4 || mes == 5) {
+    estacion = "otonio";
+} else if (mes == 6 || mes == 7 || mes == 8) {
+    estacion = "invierno";
+} else if (mes == 9 || mes == 10 || mes == 11) {
+    estacion = "primavera";
+} else {
+    estacion = "no existe";
+}
+console.log(estacion);
+
