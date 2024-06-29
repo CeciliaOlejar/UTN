@@ -38,3 +38,20 @@ console.log(resultado);
 let numero = 9
 resultado = numero % 2 == 0 ? "par" : "impar";
 console.log(resultado);
+
+
+// convertir String a number
+let elnumero = "10";
+console.log(typeof numero);
+let edad2 = Number(elnumero);
+console.log(typeof edad2);
+
+if (edad2 >= 18) {
+    console.log("Es mayor de edad, puede votar");
+} else {
+    console.log("Es menor de edad, no puede votar");
+}
+
+let resultado3 = edad2 >= 18 ? "Es mayor de edad, puede votar" : "Es menor de edad, no puede votar
+console.log(resultado3);
+
