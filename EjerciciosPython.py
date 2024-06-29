@@ -16,3 +16,18 @@ if es_bisiesto(año):
 else:
     print(f"El año {año} no es bisiesto.")
 
+
+#calcular la suma de n primeros numeros
+# Pedimos al usuario que ingrese la cantidad de números que quiere sumar
+n = int(input("¿Cuántos números quieres sumar? "))
+
+# Inicializamos la variable que contendrá la suma total
+suma_total = 0
+
+# Recorremos desde 1 hasta n para pedir cada número y sumarlo a la suma total
+for i in range(n):
+    numero = float(input(f"Ingrese el número {i+1}: "))
+    suma_total += numero
+
+# Mostramos la suma total
+print(f"La suma total de los {n} números es: {suma_total}")
