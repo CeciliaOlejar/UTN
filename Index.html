@@ -9,11 +9,164 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    
+    <a class="wpp" target="_blank" href=""><img src="/Imagenes/whatsapp.png" width="50rem" height="auto"></a>
+
+
+    <header id="header" class="initop">
+        <h2><a href="Index.html">Cecilia Olejarczyk</a></h2>
+        <nav id="nav">
+            <buttton id="btn-mobile" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hambuguer"></span>
+            </buttton>
+            <div class="menu">
+                <ul id="menu" role="menu">
+                    <li><a href=#Home>Home</a></li>
+                    <li><a href=#About>About Me</a></li>
+                    <li><a href=#Proyects>Proyects</a></li>
+                    <li><a href=#Contact>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <main>
+        <section id="Home">
+            <div class="content-2colums">
+                <div>
+                    <aside>
+                        <img src="/Imagenes/cio.png" alt="yo" width="100%" height="auto">
+                    </aside>
+                </div>
+            </div>
+        </section>
+        <section id="About">
+            <div class="text">
+                <h1>Introduction</h1>
+                <hr class="linea-estilizada">
+                <h4>
+                    Hola! Soy Cecilia Olejarczyk, tengo 27 años y soy de la Ciudad Autónoma de Buenos Aires pero
+                    actualmente vivo en un pueblito a 15km de Mar del Plata. <br>
+
+                    Soy Técnica universitaria en Administración General, recibida en UTN Regional MDP pero decidí
+                    profesionalizarme dentro del mundo de <IT class="br"></IT>
+                    Me encanta superarme día a día y es por eso que decidí continuar mis estudios dentro de este área.
+                    <br>
+                    Desde hace 3 años que vengo realizando diversas capacitaciones sobre desarrollo web y lenguajes de
+                    programación como JavaScript, Python, Java y C# con .NET. <br>
+                    En este 2024 comencé la Tecnicatura en Programación, en UTN San Rafael, Mendoza. <br>
+                    Actualmente me encuentro desde hace casi dos años trabajando para Banco Provincia Microcréditos como
+                    desarrolladora especializada en CRM, a través de la consultora IT Consultant.
+                </h4>
+                <div>
+                    <h2>Mision</h2>
+                    <hr class="linea-estilizada2">
+                    <h4>
+                        Mi misión es contribuir al crecimiento y éxito de la industria tecnológica del país a través de
+                        la creación de soluciones innovadoras y eficientes. <br>
+                        Me comprometo a aprender continuamente y a mejorar mis habilidades técnicas, trabajando con
+                        integridad y dedicación para entregar productos de alta calidad. <br>
+                        Mi objetivo es colaborar con equipos diversos y dinámicos para desarrollar software que impacte
+                        positivamente la vida de las personas y promueva el desarrollo sostenible de la sociedad.
+                    </h4>
+                </div>
+                <div>
+                    <h2>Vision</h2>
+                    <hr class="linea-estilizada2">
+                    <h4>
+                        Mi visión es convertirme en un desarrollador de software altamente competente y reconocido en
+                        Argentina y a nivel global. Aspiro a ser parte de proyectos transformadores que impulsen la
+                        innovación tecnológica en el país y contribuyan al progreso económico y social. <br>
+                        Quiero ser un agente de cambio en la industria, promoviendo la adopción de tecnologías
+                        emergentes y mejores prácticas en desarrollo de software, mientras inspiro y apoyo a otros
+                        profesionales a alcanzar su máximo potencial.
+                    </h4>
+                </div>
+        </section>
+
+        <section id="Proyects" class="text">
+            <div>
+                <h2>Proyects</h2>
+            </div>
+            <hr class="linea-estilizada">
+            <div class="proyects-grid">
+                <div class="Proyecto1 hvr-grow-shadow">
+                    <div class="list-show">
+                        <br>
+                        <h4>El Escudo Materiales</h4>
+                        <a href="https://elescudomaterialesmio.netlify.app/">
+                            <h6>Corralon de Materiales<br>
+                                Diseño de pagina web con <br>
+                                construccion de identidad de marca, logo y paleta de colores.
+                                Formo parte del curso FullStack Python brindado <br>
+                                por CODO A CODO, Ciudad Autonoma de Buenos Aires.
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="Proyecto2 hvr-grow-shadow">
+                    <div class="list-show">
+                        <br>
+                        <h4>La Rosadita</h4> <br>
+                        <a href="http://www.larosadita.com/">
+                            <h6>Cabañas para alquilar en Camet Norte <br>
+                                Diseño de pagina web con <br>
+                                construccion de identidad de marca, logo y paleta de colores.
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="Proyecto3 hvr-grow-shadow">
+                    <div class="list-show">
+                        <br>
+                        <h4>Desarrolladora CRM</h4> <br>
+                        <a href="https://provinciamicrocreditos.com.ar/">
+                            <h6>Microcréditos del Banco Provincia, <br>
+                                a travez de la consultora <br>
+                                IT Consultant.
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="Contact" class="text">
+            <h2>Contacto</h2>
+            <hr class="linea-estilizada">
+            <div class="contact-section">
+                <div class="form-contact">
+                    <h3>Dejame tu mensaje</h3>
+
+                    <div class="user_info">
+                        <label for="names">Nombre y Apellido</label>
+                        <input type="text" id="names">
+
+                        <label for="phone">Telefono / Celular</label>
+                        <input type="text" id="phone">
+
+                        <label for="email">Correo electronico</label>
+                        <input type="text" id="email">
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje"></textarea>
+
+                        <input type="submit" value="Enviar mensaje" id="btnSend" />
+                    </div>
+                    </form>
+                </div>
+                <div class="photo-container">
+                    <img src="/Imagenes/1710353643752.jpg">
+                </div>
+        </section>
+
 
     </main>
     <footer>
-
+        <p>© 2024 Cecilia Olejarczyk</p>
+        <script src="scripts.js"></script>
     </footer>
 </body>
 </html>
