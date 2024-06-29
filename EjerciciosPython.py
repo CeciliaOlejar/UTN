@@ -48,3 +48,20 @@ for i in range(10):
 print(f"la cantidad de nros positivos es: {positivos} ")
 print(f"la cantidad de nros negativos es: {negativos}")
 print(f"la cantidad de nros neutros es: {neutros}")
+
+
+#conjunto de calificaciones de un grupo de 10 alumnos, calcular la calif
+#promedio y la mas baja del grupo
+
+calificacionBaja = 10
+suma = 0
+
+for i in range(10):
+    n = int(input("ingrese una calificacion del 1 al 10"))
+    suma += n
+    if calificacionBaja > n:
+        calificacionBaja = n
+
+promedio = suma / 10
+print(f"el promedio es: {promedio} ")
+print(f"la calificacion mas baja es:  {calificacionBaja} ")
