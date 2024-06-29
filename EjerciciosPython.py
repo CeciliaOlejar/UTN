@@ -84,3 +84,35 @@ while True:
 
 resultado = factorial(numero)
 print(f"el resultado es:  {resultado}")
+
+
+
+#ingresar n enteros, y visualizar la suma de los numeros pares, cuantos numeros
+#pares habia y cual es el promedio de los impares
+
+# Pedimos al usuario que ingrese la cantidad de números que quiere
+n = int(input("¿Cuántos números quieres ingresar? "))
+
+sumaPares = 0
+cantPares = 0
+sumaImpares = 0
+cantImpares = 0
+
+for i in range(n):
+    numero = int(input(f"Ingrese el número {i + 1}: "))
+    if numero % 2 == 0:  # Si el número es par
+        sumaPares += numero
+        cantPares += 1
+    else:  # Si el número es impar
+        sumaImpares += numero
+        cantImpares += 1
+
+if cantImpares > 0:
+    promedioImpar = sumaImpares / cantImpares
+else:
+    promedioImpar = 0
+
+print(f"La suma de los números pares es: {sumaPares}")
+print(f"Cantidad de números pares: {cantPares}")
+print(f"Promedio de los números impares: {promedioImpar}")
+
