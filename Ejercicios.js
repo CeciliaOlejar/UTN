@@ -154,3 +154,14 @@ function getDay(n) {
     } return days[n];
 }
 console.log(getDay(5));
+
+
+// mes del anio mejor
+
+let months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+function getMonth(n) {
+    if (n < 0 || n > 11) {
+        return 'error';
+    } return months[n];
+}
+console.log(getMonth(9));
